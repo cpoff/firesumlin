@@ -1,0 +1,30 @@
+baseURL = "https://firesumlin.com/"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Fire Kevin Sumlin!"
+theme = "hallo"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
+environment = "production"
+
+
+[Author]
+    name = "Fire Kevin Sumlin!"
+    description = "Kevin Sumlin's contract at the University of Arizona is $14.5 million over five years. Now winless in his third season. Do the math. He's not worth it."
+
+[params]
+    [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:sumlinout@gmail.com"
+
+
+    [params.colors]
+        background = "#57030B"
+        foreground = "#edf7ff"
+        hover = "#ffba82"
+
+    [params.fonts]
+        googlefonts = ["Droid Sans", "Fira Mono"]
+        fontbody = 'Droid Sans'
+        fontcode = 'Fira Mono'
